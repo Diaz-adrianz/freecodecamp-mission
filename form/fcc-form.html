@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="stylenya.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Noto Sans">
+    
+    <link rel="shortcut icon" href="../assets/favicon.jpeg" type="image/x-icon">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <h1 id="title">Bandung Exhibition Form</h1>
+            <p id="description">thank you for visiting the Sri Baduga Gallery</p>
+        </header>
+
+        <form id="survey-form">
+            <!-- name  -->
+            <div class="form-wrap">
+                <label for="name" id="name-label">Name : </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                
+            </div>
+            <!-- email  -->
+            <div class="form-wrap">
+                <label for="email" id="email-label">E-mail : </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                
+            </div>
+            
+            <!-- status -->
+            <div class="form-wrap">
+                <label for="dropdown" id="role-label">Which option describe your current role</label>
+                <select name="role" id="dropdown">
+                    <option disabled selected>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="job">Full time job</option>
+                    <option value="learner">Learner</option>
+                    <option value="enthusiast">Art enthusiast</option>
+                    <option value="artist">Artist</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <!-- rating  -->
+            <div class="form-wrap">
+                <label for="number" id="number-label">Rating ( 10- 100 )</label>
+                    <input type="number" name="rating" id="number" min="10" max="100" placeholder="Enter Your Rating" required>
+        
+            </div>
+            <!-- feel  -->
+            <div class="form-wrap">
+                <p id="feel-label">How do you feel about the exhibition?</p>
+                <label class="non-label">
+                    <input type="radio" name="feel" class="u-radio" value="happy">
+                    Happy
+                </label>
+                <label class="non-label">
+                    <input type="radio" name="feel" class="u-radio" value="amazing">
+                    Amazing
+                </label>
+                <label class="non-label">
+                    <input type="radio" name="feel" class="u-radio" value="so-so">
+                    So - so
+                </label>
+                <label class="non-label">
+                    <input type="radio" name="feel" class="u-radio" value="disappointed">
+                    Disappointed
+                </label>
+            </div>
+            <!-- favourite -->
+            <div class="form-wrap">
+                <p id="favorite-label">what is your favorite in this exhibition?</p>
+                <label class="non-label">
+                    <input type="checkbox" name="favourite" class="u-check" value="monalisa">
+                    Monalisa
+                </label>
+                <label class="non-label">
+                    <input type="checkbox" name="favourite" class="u-check" value="starrynight">
+                    The Starry Night
+                </label>
+                <label class="non-label">
+                    <input type="checkbox" name="favourite" class="u-check" value="persistence">
+                    The Persistence
+                </label>
+                <label class="non-label">
+                    <input type="checkbox" name="favourite" class="u-check" value="w-mother">
+                    Whistler's Mother
+                </label>
+                <label class="non-label">
+                    <input type="checkbox" name="favourite" class="u-check" value="s-potrait">
+                    Self Potrait
+                </label>
+                <label class="non-label">
+                    <input type="checkbox" name="favourite" class="u-check" value="picasso">
+                    Picasso
+                </label>   
+            </div>
+            
+            <!-- comment  -->
+            <div class="form-wrap">
+                <label for="comment" id="comment-label">Any comment or suggestions?</label>
+                <textarea name="comment" id="comment" placeholder="Enter your comment..."></textarea>              
+            </div>
+            
+            <!-- submit  -->
+            <div class="form-wrap">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+
+        <footer>
+            <p>Design & Build by <span onclick="navigator.clipboard.writeText('diazadrianz191205@gmail.com')" title="copy my email">Diaz Adriansyah</span></p>
+        </footer>
+
+    </div>
+</body>
+</html>
