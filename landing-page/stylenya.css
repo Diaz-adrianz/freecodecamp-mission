@@ -588,7 +588,7 @@ footer p#by a{
     }
     #menu .menu-wrap{
         grid-template-columns: auto auto;
-        gap: 20px;
+        gap: 10px;
     }
     #menu figure{
         height: 150px;
