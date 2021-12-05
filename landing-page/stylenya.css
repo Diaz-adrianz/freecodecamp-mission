@@ -593,6 +593,9 @@ footer p#by a{
     #menu figure{
         height: 150px;
     }
+    #menu .title{
+        padding: 6px 8px;
+    }
     #book form .form-wrap{
         grid-template-columns: auto;
     }
