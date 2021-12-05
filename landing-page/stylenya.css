@@ -531,7 +531,7 @@ footer p#by a{
     #nav-bar{
         flex-direction: column;
     }
-    #nav-bar a{
+    #nav-bar a, #nav-user span{
         color: var(--white, #f7f7f7);
     }
     header ul{
