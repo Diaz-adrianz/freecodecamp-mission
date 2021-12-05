@@ -27,7 +27,7 @@
 
 body{
     max-width: 1440px;
-    font-family:  Helvetica, sans-serif;
+    font-family: 'Noto Sans', Helvetica, sans-serif;
     overflow-x: hidden;
     color: var(--black, #212121);
     background-color: var(--white, #f7f7f7);
@@ -36,11 +36,13 @@ body{
 h3.sapa{
     width: 50px;
     margin-bottom: 15px; padding: 5px 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: var(--secondary, #B04A1C);
     border-top: 2px solid var(--secondary, #B04A1C);
 }
 h2{
     margin-bottom: 30px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 2.7em;
     color: var(--extend, #3B0C0D);
 }
@@ -147,6 +149,7 @@ header ul a{
 }
 .banner h2{
     font-size: 4.3em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
     color: var(--extend, #3B0C0D);
 }
@@ -190,6 +193,7 @@ main #categories{
 }
 #categories .item{
     height: 230px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     padding: 20px 0;
     cursor: pointer;
     text-align: center;
@@ -231,6 +235,7 @@ main #about{
 
 a.more{
     display: inline-block;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 30px 0 0 0;
     text-decoration: none;
     font-weight: bold;
@@ -292,6 +297,7 @@ main #menu{
     gap: 40px;
 }
 #menu .menu-item{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     position: relative;
     cursor: pointer;
     box-shadow: 0px 1px 10px rgba(33, 33, 33, .4);
@@ -325,6 +331,7 @@ main #menu{
     padding: 15px 20px;
 }
 #menu .title p{
+    font-weight: bold;
     font-size: 1.4em;
     margin-bottom: 10px;
 }
@@ -354,6 +361,7 @@ main #book{
     margin-bottom: 10px;
 }
 #book form input{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     padding: 10px;
     border: none; border: none;
     box-shadow: 0px 0px 10px rgba(33, 33, 33, .2);
@@ -361,6 +369,7 @@ main #book{
 #book textarea{
     width: 100%; min-height: 230px;
     padding: 10px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     border: none; border: none; resize: none; 
     box-shadow: 0px 0px 10px rgba(33, 33, 33, .2);
 }
