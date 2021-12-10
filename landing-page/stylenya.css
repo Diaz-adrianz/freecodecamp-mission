@@ -468,17 +468,20 @@ footer #foot-wrap{
     color: var(--secondary, #B04A1C);
     text-decoration: none;
 }
-footer p#by{
+#developer{
+    padding: 10px 0;
+    margin: 30px 0 0 0;
+    border-top: 1px solid #f7f7f7;
+  }
+  #developer p, #developer a{
     text-align: center;
-    padding-bottom: 10px;
-}
-footer p#by a{
-    color: var(--white, #f7f7f7);
-    text-decoration: none;
-    position: relative; top: 5px ; left: 10px;
-} footer p#by a:hover{
-    color: var(--secondary, #B04A1C);
-}
+    font-size: .9em;
+    margin: 10px 0;
+  
+  }
+  #developer a{
+      color: #fd7014;
+  }
 /* animations  */
 .burger.click  span{
     transform: translateX(150%);
@@ -531,7 +534,7 @@ footer p#by a{
     #nav-bar{
         flex-direction: column;
     }
-    #nav-bar a, #nav-user span{
+    #nav-bar a{
         color: var(--white, #f7f7f7);
     }
     header ul{
@@ -588,13 +591,10 @@ footer p#by a{
     }
     #menu .menu-wrap{
         grid-template-columns: auto auto;
-        gap: 10px;
+        gap: 20px;
     }
     #menu figure{
         height: 150px;
-    }
-    #menu .title{
-        padding: 6px 8px;
     }
     #book form .form-wrap{
         grid-template-columns: auto;
