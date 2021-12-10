@@ -84,18 +84,20 @@ section a{
 }
 
 /* footer  */
-footer{
-    width: 100%;
-    padding: 25px;
-}
-footer span{
-    cursor: pointer;
-    color: #009ffd;
-    font-family: 'roboto', sans-serif;
-    text-decoration: none;
-} footer span:hover{
-    font-weight: bold;
-}
+#developer{
+    padding: 10px 0;
+    margin: 30px 0 0 0;
+    border-top: 1px solid #f7f7f7;
+  }
+  #developer p, #developer a{
+    text-align: center;
+    font-size: .9em;
+    margin: 10px 0;
+  
+  }
+  #developer a{
+      color: #fd7014;
+  }
 
 @media only screen and (max-width: 600px){
     *{ font-size: 16px; }
