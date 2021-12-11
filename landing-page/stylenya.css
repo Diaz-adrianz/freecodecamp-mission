@@ -475,7 +475,6 @@ footer #foot-wrap{
   }
   #developer p, #developer a{
     text-align: center;
-    font-size: .9em;
     margin: 10px 0;
   
   }
@@ -546,6 +545,8 @@ footer #foot-wrap{
     }
     #nav-user li{
         border: none;
+    }#nav-user span{
+        color: var(--white);
     }
     /* banner  */
     .banner .inner-banner{
@@ -603,4 +604,14 @@ footer #foot-wrap{
         flex-direction: column-reverse;
     }
     
+}
+@media only screen and (max-width: 500px){
+    * { font-size: 12px;}
+    
+    #service .serv-item h4{
+        font-size: 1.6em;
+    }
+    #menu .title{
+        padding: 8px 12px;
+    }
 }
