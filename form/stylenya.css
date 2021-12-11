@@ -153,6 +153,6 @@ footer span{
   }
 
 @media only screen and (max-width : 600px){
-    *{ font-size: 14px ;}
+    *{ font-size: 12px ;}
     .container { padding: 20px 10px;}
 }
